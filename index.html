@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Fonseca</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="wave_style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-terminal"></i>
+                <span>Pedro Fonseca</span>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">Sobre</a></li>
+                    <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                    <li><a href="#projects" class="nav-link">Projetos</a></li>
+                    <li><a href="#learning" class="nav-link">Formação</a></li>
+                    <li><a href="#contact" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="social-links">
+                <a href="https://github.com/pfonseca-dev" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/pedrof-martins/" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="hero">
+        <canvas id="matrix-canvas"></canvas>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="/image/foto.png" alt="João Silva" class="profile-img">
+                </div>
+                <h1 class="hero-title">Desenvolvedor Back-end</h1>
+                <p class="hero-description">
+                    Desenvolvedor iniciante apaixonado por tecnologia backend, com sólida base em programação e
+                    conhecimento
+                    em bancos de dados. Sempre em busca de novos desafios e aprendizado contínuo.
+                </p>
+                <div class="hero-badges">
+                    <span class="badge">
+                        <i class="fas fa-code"></i>
+                        Programação
+                    </span>
+                    <span class="badge">
+                        <i class="fas fa-database"></i>
+                        Banco de Dados
+                    </span>
+                    <span class="badge">
+                        <i class="fas fa-cloud"></i>
+                        Cloud Learning
+                    </span>
+                    <span class="badge">
+                        <i class="fas fa-terminal"></i>
+                        Lógica de Programação
+                    </span>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i>
+                        Entre em Contato
+                    </a>
+                    <a href="/cv.pdf" target="_blank" class="btn btn-outline">
+                        Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Habilidades Técnicas</h2>
+                <p class="section-description">
+                    Tecnologias e ferramentas que domino para criar soluções backend robustas.
+                </p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Linguagens</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Java</span>
+                        <span class="tag">C</span>
+                        <span class="tag">PHP</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Banco de Dados</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">MySQL</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-cloud"></i>
+                        <h3>Cloud (Estudos)</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">AWS (Estudos)</span>
+                        <span class="tag">Google Cloud (Estudos)</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-terminal"></i>
+                        <h3>Ferramentas</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">Git</span>
+                        <span class="tag">VS Code</span>
+                        <span class="tag">MySQL Workbench</span>
+                        <span class="tag">Terminal</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-bolt"></i>
+                        <h3>Conceitos</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">Algoritmos</span>
+                        <span class="tag">Estruturas de Dados</span>
+                        <span class="tag">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Frontend (Básico)</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projetos em Destaque</h2>
+                <p class="section-description">
+                    Alguns dos projetos backend mais significativos que desenvolvi, demonstrando expertise em diferentes
+                    tecnologias.
+                </p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">SpeedyExpress Site Ecommerce</h3>
+                        <p class="project-description">
+                            Site desenvolvido em HTML, CSS e JavaScript, fui responsável pelo desenvolvido do front-end
+                        </p>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tech">
+                            <h4>Tecnologias:</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="project-features">
+                            <h4>Features:</h4>
+                            <ul>
+                                <li>Página de detalhes do produto</li>
+                                <li>Listagem de produtos</li>
+                                <li>Navegação entre páginas</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/pfonseca-dev/Speedy-Express-Site-Ecommerce" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Código
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="learning" class="learning">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Formação & Cursos</h2>
+                <p class="section-description">
+                    Minha jornada acadêmica e cursos que completei para desenvolver minhas habilidades em programação e
+                    tecnologia.
+                </p>
+            </div>
+            <div class="learning-tabs">
+                <button class="tab active" data-category="graduacao">Graduação</button>
+                <button class="tab" data-category="tecnico">Técnico</button>
+                <button class="tab" data-category="cursos">Cursos Complementares</button>
+            </div>
+            <div class="learning-timeline">
+                <div class="learning-item" data-category="graduacao">
+                    <div class="learning-header">
+                        <div class="learning-info">
+                            <h3 class="learning-title">Engenharia da Computação</h3>
+                            <p class="learning-institution">UNISAL - Universidade Salesiana</p>
+                        </div>
+                        <span class="learning-period current-course">
+                            <i class="fas fa-calendar"></i>
+                            2025 - Presente (Cursando)
+                        </span>
+                    </div>
+                    <p class="learning-description">
+                        Graduação em Engenharia da Computação onde estou aprendendo conceitos fundamentais e me
+                        apaixonando cada vez mais pela programação.
+                    </p>
+                    <div class="learning-achievements">
+                        <h4>Principais aprendizados:</h4>
+                        <ul>
+                            <li>Fundamentos de programação e algoritmos</li>
+                            <li>Estruturas de dados e complexidade</li>
+                            <li>Arquitetura de computadores e sistemas</li>
+                            <li>Desenvolvimento de projetos práticos</li>
+                            <li>Metodologias de desenvolvimento de software</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="learning-item" data-category="cursos">
+                    <div class="learning-header">
+                        <div class="learning-info">
+                            <h3 class="learning-title">Imersão Dados com Python</h3>
+                            <p class="learning-institution">Alura</p>
+                        </div>
+                        <span class="learning-period current-course">
+                            <i class="fas fa-calendar"></i>
+                            2025
+                        </span>
+                    </div>
+                    <p class="learning-description">
+                        Curso prático de análise de dados com Python em quatro aulas gratuitas, ministrado por
+                        especialistas da área.
+                    </p>
+                    <div class="learning-achievements">
+                        <h4>Principais aprendizados:</h4>
+                        <ul>
+                            <li>Manipulação de dados com Pandas</li>
+                            <li>Visualização de dados com Matplotlib e Seaborn</li>
+                            <li>Análise exploratória de dados</li>
+                            <li>Tratamento e limpeza de datasets</li>
+                            <li>Insights práticos para análise de dados</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="learning-item " data-category="tecnico">
+                    <div class="learning-header">
+                        <div class="learning-info">
+                            <h3 class="learning-title">Ensino Técnico em Informática para Internet</h3>
+                            <p class="learning-institution">ETEC - Escola Técnica Estadual</p>
+                        </div>
+                        <span class="learning-period current-course">
+                            <i class="fas fa-calendar"></i>
+                            Término 2024
+                        </span>
+                    </div>
+                    <p class="learning-description">
+                        Curso técnico completo em desenvolvimento web, onde desenvolvi meu TCC: um site de e-commerce
+                        completo.
+                    </p>
+                    <div class="learning-achievements">
+                        <h4>Principais aprendizados:</h4>
+                        <ul>
+                            <li>Desenvolvimento web com HTML5, CSS3 e JavaScript</li>
+                            <li>Programação backend com PHP</li>
+                            <li>Banco de dados MySQL e modelagem</li>
+                            <li>Projeto TCC: Site de E-commerce completo</li>
+                            <li>Integração frontend-backend</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="learning-item" data-category="cursos">
+                    <div class="learning-header">
+                        <div class="learning-info">
+                            <h3 class="learning-title">Implementação de Serviços em Nuvem</h3>
+                            <p class="learning-institution">SENAI - Google Cloud Foundations</p>
+                        </div>
+                        <span class="learning-period current-course">
+                            <i class="fas fa-calendar"></i>
+                            Término 2023
+                        </span>
+                    </div>
+                    <p class="learning-description">
+                        Curso focado em Google Cloud Platform, onde obtive diversas certificações do Google Cloud.
+                    </p>
+                    <div class="learning-achievements">
+                        <h4>Principais aprendizados:</h4>
+                        <ul>
+                            <li>Fundamentos do Google Cloud Platform</li>
+                            <li>Compute Engine e App Engine</li>
+                            <li>Cloud Storage e Cloud SQL</li>
+                            <li>Múltiplas certificações Google Cloud</li>
+                            <li>Deploy e gerenciamento de aplicações na nuvem</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="learning-item" data-category="cursos">
+                    <div class="learning-header">
+                        <div class="learning-info">
+                            <h3 class="learning-title">Implementação de Serviços de IA em Nuvem</h3>
+                            <p class="learning-institution">SENAI - Google Cloud AI Foundations</p>
+                        </div>
+                        <span class="learning-period current-course">
+                            <i class="fas fa-calendar"></i>
+                            Término 2022
+                        </span>
+                    </div>
+                    <p class="learning-description">
+                        Primeiro contato com cloud computing, onde conheci tanto Google Cloud quanto AWS, aprendendo
+                        conceitos fundamentais de ambas as plataformas.
+                    </p>
+                    <div class="learning-achievements">
+                        <h4>Principais aprendizados:</h4>
+                        <ul>
+                            <li>Introdução ao Google Cloud Platform</li>
+                            <li>Conceitos básicos da AWS</li>
+                            <li>Serviços de Inteligência Artificial na nuvem</li>
+                            <li>Comparação entre diferentes provedores cloud</li>
+                            <li>Fundamentos de machine learning na nuvem</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wave-container">
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(37,100,235,0.7)" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(37,100,235,0.5)" />
+                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(37,100,235,0.3)" />
+                    <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(37,100,235,0.1)" />
+                </g>
+            </svg>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Vamos Conversar?</h2>
+                <p class="section-description">
+                    Estou sempre aberto a discutir novas oportunidades, projetos interessantes ou apenas trocar ideias
+                    sobre tecnologia.
+                </p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3>Informações de Contato</h3>
+                        <p>Entre em contato através dos canais abaixo</p>
+                        <div class="contact-items">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <strong>Email</strong>
+                                    <p>pfmartins2006@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <strong>Localização</strong>
+                                    <p>Cruzeiro, SP - Brasil</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-social">
+                            <a href="https://github.com/pfonseca-dev" target="_blank" class="social-btn">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                            <a href="https://www.linkedin.com/in/pedrof-martins/" target="_blank" class="social-btn">
+                                <i class="fab fa-linkedin"></i>
+                                LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="availability">
+                    <div class="contact-card">
+                        <h3>Disponibilidade</h3>
+                        <p>Status atual e preferências de trabalho</p>
+                        <div class="availability-status">
+                            <div class="status-indicator"></div>
+                            <span>Disponível para oportunidades júnior</span>
+                        </div>
+                        <div class="availability-info">
+                            <div class="availability-section">
+                                <strong>Modalidades de trabalho:</strong>
+                                <div class="availability-tags">
+                                    <span class="availability-tag">Remoto</span>
+                                    <span class="availability-tag">Presencial</span>
+                                    <span class="availability-tag">Híbrido</span>
+                                    <span class="availability-tag">Estágio</span>
+                                </div>
+                            </div>
+                            <div class="availability-section">
+                                <strong>Áreas de interesse:</strong>
+                                <div class="availability-tags">
+                                    <span class="availability-tag">Desenvolvimento Web</span>
+                                    <span class="availability-tag">APIs</span>
+                                    <span class="availability-tag">Banco de Dados</span>
+                                    <span class="availability-tag">Cloud Computing</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <i class="fas fa-terminal"></i>
+                    <span>Pedro Fonseca</span>
+                    <span class="footer-role">Backend Developer</span>
+                </div>
+                <p class="footer-copyright">© 2024 Pedro Fonseca. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="backgroud_anim.js"></script>
+    <script src="learning_filter.js"></script>
+</body>
+
+</html>
